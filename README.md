@@ -9,6 +9,7 @@ Architecture
 
 The domain model is built around a base class Frame, allowing most objects to be registered in a Namespace.
 
+<br>
 Valuation flows through the object graph:
 
 Book → Portfolio → Trade → Product
