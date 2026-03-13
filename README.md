@@ -5,6 +5,13 @@ A simple financial object model implemented in Pharo Smalltalk as part of a tech
 The system models financial entities such as Books, Portfolios, Trades and Products and calculates their present value (PV) for a given Market.
 <br>
 
+## Structure
+
+src/InterviewExercises – domain classes  
+src/InterviewExercises-Tests – SUnit tests
+
+<br>
+
 ## Architecture
 
 The domain model is built around a base class Frame, allowing most objects to be registered in a Namespace.
