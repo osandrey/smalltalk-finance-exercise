@@ -3,7 +3,7 @@ Smalltalk Finance Exercise
 A simple financial object model implemented in Pharo Smalltalk as part of a technical interview exercise.
 
 The system models financial entities such as Books, Portfolios, Trades and Products and calculates their present value (PV) for a given Market.
-
+<br>
 
 Architecture
 
@@ -13,7 +13,7 @@ Valuation flows through the object graph:
 
 Book → Portfolio → Trade → Product
 
-
+<br>
 Where:
 
 Product performs the valuation
@@ -74,8 +74,7 @@ market date: (Date year: 2027 month: 1 day: 1).
 book presentValueForMarket: market.
 
 
-
-
+<br>
 Tests
 
 SUnit tests implemented for the main domain classes:
@@ -87,7 +86,7 @@ TradeTest
 CashflowProductTest
 BookTest
 
-
+<br>
 
 Environment
 
