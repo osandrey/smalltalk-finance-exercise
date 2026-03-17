@@ -40,3 +40,8 @@ Trade >> presentValueForMarket: aMarket [
         sum: [ :each | each presentValueForMarket: aMarket ]
         ifEmpty: [ 0 ]
 ]
+
+{ #category : 'accessing' }
+Trade >> totalAmount [
+    ^ products sum: [ :each | each amount ] ifEmpty: [ 0 ]
+]
